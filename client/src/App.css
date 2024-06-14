@@ -1,0 +1,70 @@
+/**
+ * styles.css
+ *
+ * @format
+ */
+
+/* General styles */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+	padding: 20px;
+}
+
+.App h1 {
+	font-size: 32px; /* Adjust as needed */
+	margin-bottom: 20px; /* Optional: Adds space below the heading */
+	margin-left: 400px;
+}
+
+/* Component-specific styles */
+.total-sales,
+.month-wise-sales,
+.most-popular-item,
+.most-revenue-item,
+.popular-item-stats {
+	max-width: 600px;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.total-sales h2,
+.month-wise-sales h2,
+.most-popular-item h2,
+.most-revenue-item h2,
+.popular-item-stats h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.total-sales p,
+.month-wise-sales ul,
+.most-popular-item p,
+.most-revenue-item ul,
+.popular-item-stats > div p {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.month-wise-sales ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.month-wise-sales li {
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+
+.most-revenue-item ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.most-revenue-item li {
+	font-size: 16px;
+	margin-bottom: 5px;
+}
